@@ -1,0 +1,29 @@
+{
+    "java.completion.favoriteStaticMembers": [
+
+        // "org.junit.Test",
+        // "import static org.junit.Assert.*",
+        "org.junit.Test",
+        // "org.junit.Assert.*",
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    
+     "java.configuration.runtimes": [
+            {
+                "name": "JavaSE-11",
+                "path": "/path/to/jdk-11",
+                "default": true
+            }
+        ],
+        "java.test.runner": "junit4",
+        "java.test.junit4.version": "4.12"
+    
+}
